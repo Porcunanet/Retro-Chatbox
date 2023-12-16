@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+  <h1>Retro Chatbox</h1>
+    <!-- Chatbox application container -->
+    <div id="chatbox" class="retro-chatbox">
+      <!-- Messages container -->
+      <div id="messages" class="messages"></div>
+
+      <!-- Input and Send Button -->
+      <div class="input-group">
+        <input type="text" id="user-input" class="input-retro" placeholder="Type a message...">
+        <button onclick="sendMessage()" class="send-button">Send</button>
+        <button onclick="deleteMessages()" class="delete-button">Delete All</button>
+      </div>
+    </div>
+
+
+</body>
+</html>
